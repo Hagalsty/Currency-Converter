@@ -22,7 +22,7 @@ function App() {
 
   return !USDRate ? (
     <div id="mainContainer">
-      <h2>Loading...</h2>
+      <Heading type="h2" text="Loading..." />
     </div>
   ) : (
     <div id="mainContainer">
